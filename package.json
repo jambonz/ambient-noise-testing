@@ -1,0 +1,23 @@
+{
+  "name": "ambient-noise-testing",
+  "version": "0.0.1",
+  "description": "jambonz webhook application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.3.69",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "pino": "^8.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
